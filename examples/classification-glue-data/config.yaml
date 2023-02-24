@@ -1,0 +1,31 @@
+#
+# eval metrics
+#
+eval_metrics:
+
+ bert:
+    'mnli':  './classification-glue-data/bert-base-cased/mnli/eval_results_mnli_accuracy.txt'
+    'mrpc':  './classification-glue-data/bert-base-cased/mrpc/eval_results_mrpc_accuracy.txt'
+    'qnli':  './classification-glue-data/bert-base-cased/qnli/eval_results_qnli_accuracy.txt'
+    'qqp':  './classification-glue-data/bert-base-cased/qqp/eval_results_qqp_accuracy.txt'
+    'rte':  './classification-glue-data/bert-base-cased/rte/eval_results_rte_accuracy.txt'
+    'sst2':  './classification-glue-data/bert-base-cased/sst2/eval_results_sst2_accuracy.txt'
+    'wnli':  './classification-glue-data/bert-base-cased/wnli/eval_results_wnli_accuracy.txt'
+
+ distilbert:
+    'mnli':  './classification-glue-data/distilbert-base-cased/mnli/eval_results_mnli_accuracy.txt'
+    'mrpc':  './classification-glue-data/distilbert-base-cased/mrpc/eval_results_mrpc_accuracy.txt'
+    'qnli':  './classification-glue-data/distilbert-base-cased/qnli/eval_results_qnli_accuracy.txt'
+    'qqp':  './classification-glue-data/distilbert-base-cased/qqp/eval_results_qqp_accuracy.txt'
+    'rte':  './classification-glue-data/distilbert-base-cased/rte/eval_results_rte_accuracy.txt'
+    'sst2':  './classification-glue-data/distilbert-base-cased/sst2/eval_results_sst2_accuracy.txt'
+    'wnli':  './classification-glue-data/distilbert-base-cased/wnli/eval_results_wnli_accuracy.txt'
+
+display_names:
+    'mnli': 'MNLI'
+    'mrpc': 'MRPC'
+    'qnli': 'QNLI'
+    'qqp':  'QQP'
+    'rte': 'RTE'
+    'sst2': 'SST-2'
+    'wnli': 'WNLI'

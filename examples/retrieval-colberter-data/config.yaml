@@ -1,0 +1,44 @@
+#
+# qrel file locations
+#
+qrels:
+    'trec-covid': './retrieval-colberter-data/qrels/trec-covid_qrels.txt'
+    'dbpedia-entity': './retrieval-colberter-data/qrels/dbpedia-entity_qrels.txt'
+    'antique': './retrieval-colberter-data/qrels/antique_qrels.txt'
+    'nfcorpus': './retrieval-colberter-data/qrels/nfcorpus_qrels.txt'
+    'webis-touche2020-v2': './retrieval-colberter-data/qrels/webis-touche2020-v2_qrels.txt'
+    'tripclick': './retrieval-colberter-data/qrels/tripclick_qrels.txt'
+    'trec-podcast': './retrieval-colberter-data/qrels/trec_podcast_qrels.txt'
+    'robust04': './retrieval-colberter-data/qrels/robust04_qrels.txt'
+#
+# ranked outputs locations
+#
+available_rankings:
+
+ tasb_dim768_hf:
+    'trec-covid': './retrieval-colberter-data/tasb_dim768_hf/trec-covid_top10.txt'
+    'dbpedia-entity': './retrieval-colberter-data/tasb_dim768_hf/dbpedia-entity_top10.txt'
+    'antique': './retrieval-colberter-data/tasb_dim768_hf/antique_top10.txt'
+    'nfcorpus': './retrieval-colberter-data/tasb_dim768_hf/nfcorpus_top10.txt'
+    'tripclick': './retrieval-colberter-data/tasb_dim768_hf/tripclick_top10.txt'
+    'trec-podcast': './retrieval-colberter-data/tasb_dim768_hf/trec_podcast_top10.txt'
+    'robust04': './retrieval-colberter-data/tasb_dim768_hf/robust04_top10.txt'
+
+ colberter_dim1:
+    'trec-covid': './retrieval-colberter-data/colberter_dim1_stopwords/trec-covid_top10.txt'
+    'dbpedia-entity': './retrieval-colberter-data/colberter_dim1_stopwords/dbpedia-entity_top10.txt'
+    'antique': './retrieval-colberter-data/colberter_dim1_stopwords/antique_top10.txt'
+    'nfcorpus': './retrieval-colberter-data/colberter_dim1_stopwords/nfcorpus_top10.txt'
+    'tripclick': './retrieval-colberter-data/colberter_dim1_stopwords/tripclick_top10.txt'
+    'trec-podcast': './retrieval-colberter-data/colberter_dim1_stopwords/trec_podcast_top10.txt'
+    'robust04': './retrieval-colberter-data/colberter_dim1_stopwords/robust04_top10.txt'
+
+
+display_names:
+    'trec-covid':  'TREC Covid'
+    'tripclick': 'TripClick'
+    'nfcorpus': 'NFCorpus'
+    'dbpedia-entity':  'DBPedia Entity'
+    'antique':  'Antique'
+    'trec-podcast': 'TREC Podcast'
+    'robust04': 'TREC Robust 04'
