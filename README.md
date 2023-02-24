@@ -29,9 +29,10 @@ Effect sizes and corresponding confidence intervals are depicted as diamonds wit
 
 
 ```
-pip install 
+pip install git+https://github.com/MeteSertkan/ranger.git
 ```
 
+*(To run the notebooks you also need [jupyter notebooks|lab](https://jupyter.org))*
 
 ---
 The name ranger is heavily inspired by [Parks & Rec.](https://www.youtube.com/watch?v=XkhMw2KIp_4) 💚
