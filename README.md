@@ -4,6 +4,8 @@ Our toolkit produces publication-ready forest plots that enable clear communicat
 
 *Created by: Mete Sertkan, Sophia Althammer, and Sebastian Hofsätter*
 
+[https://arxiv.org/abs/2305.15048](https://arxiv.org/abs/2305.15048)
+
 ## Features
 
 - 𝚫 **Supports three different effect indices for paired settings**:
